@@ -13,7 +13,5 @@ class Solution:
             comp = int(h1 + h2) * 60 + int(m1+m2)
             if comp == current: continue
             result = min(result, (comp - current) % (24 * 60))
-            # print(h1+h2+":"+m1+m2, comp, result)
         out = (current + result) % (24 * 60)
-        # print(current, result, out)
         return "{:02}:{:02}".format(out // 60, out % 60)

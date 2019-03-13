@@ -28,7 +28,6 @@ public:
             if (p1 >= nums1.size() && p2 >= nums2.size()) {
                 break;
             }
-            // cout << i << ":: " << p1 << ":" << nums1[p1] << "," << p2 << ":" << nums2[p2] << endl;
             if (nums1[p1] < nums2[p2]) {
                 a[i] = nums1[p1++];
             } else {

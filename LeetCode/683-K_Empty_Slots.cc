@@ -15,7 +15,6 @@ public:
             const int npos = i + k + 1;
             if (npos > flowers.size()) break;
             const int max_d = max(m[i], m[npos]);
-            // printf("%d: %d %d, %d %d\n", max_d, i, npos, m[i], m[npos]);
             bool flag = false;
             for (int j = i + 1; j < npos; ++j) {
                 if (m[j] <= max_d){ flag = true; break;}

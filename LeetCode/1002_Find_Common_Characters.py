@@ -14,5 +14,4 @@ class Solution:
                 index += 1
             if not flag:
                 ans.append(i)
-        # print(ans)
         return ans

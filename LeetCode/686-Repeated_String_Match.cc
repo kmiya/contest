@@ -14,7 +14,6 @@ public:
     int repeat(string A, string B, int pa) {
         int pb = 0;
         while (pb < B.size()) {
-            //cout << pa << "," << pb << "," << A[pa % A.size()] << "," << B[pb] << endl;
             if (A[pa++ % A.size()] != B[pb++]) return -1;
         }
         return ceil(double(pa) / A.size());

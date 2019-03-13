@@ -26,5 +26,4 @@ class Solution:
                     s += 1
                     if e < s:
                         e += 1
-            # print(cnt,":",s,e,A[s:e+1],ans)
         return ans

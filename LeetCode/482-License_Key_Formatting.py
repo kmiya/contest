@@ -13,5 +13,4 @@ class Solution:
                 ans = tmp[-i:] + "-" + ans if ans else tmp[-i:]
                 tmp = tmp[:-i]
             i = (i + 1) % (K + 1)
-            # print(i,i%K,ans,tmp)
         return tmp + "-" + ans if tmp else ans
