@@ -1,5 +1,5 @@
 # Two pointers solution
-# time: O(N)
+# time: O(Nk)
 # space: O(k)
 # Runtime: 112 ms, faster than 33.30% of Python3 online submissions for Longest Substring with At Most K Distinct Characters.
 # Memory Usage: 13.3 MB, less than 5.79% of Python3 online submissions for Longest Substring with At Most K Distinct Characters.
@@ -16,7 +16,7 @@ class Solution(object):
                 if d.get(key,0) > 0:
                     d[key] = d[key] - 1
                     if not d[key]:
-                        del d[key]
+                        del d[key] # O(k)
                 b += 1
             ans = max(ans, e-b)
         return ans
