@@ -1,5 +1,5 @@
-# time: O(n)
-# space: O(n)
+# time: O(N)
+# space: O(N)
 # Runtime: 40 ms, faster than 51.99% of Python3 online submissions for Read N Characters Given Read4 II - Call multiple times.
 # Memory Usage: 13.1 MB, less than 6.15% of Python3 online submissions for Read N Characters Given Read4 II - Call multiple times.
 class Solution:
