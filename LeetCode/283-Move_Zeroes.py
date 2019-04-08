@@ -1,4 +1,4 @@
-# single pointer
+# double pointers
 # time: O(n)
 # space: O(1)
 # Runtime: 48 ms, faster than 78.56% of Python3 online submissions for Move Zeroes.
