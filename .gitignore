@@ -3,6 +3,7 @@
 *.lo
 *.o
 *.obj
+build
 
 # Compiled Dynamic libraries
 *.so
@@ -22,3 +23,6 @@
 
 #JetBrains
 .idea
+
+#VS Code
+.vscode
