@@ -1,3 +1,8 @@
+# time: O(n*n)
+# space: O(1)
+# Runtime: 732 ms, faster than 86.32% of Python3 online submissions for 3Sum.
+# Memory Usage: 16.1 MB, less than 100.00% of Python3 online submissions for 3Sum.
+
 from typing import List
 
 class Solution:
