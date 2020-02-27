@@ -1,4 +1,4 @@
-# bluteforce with pruning solution
+# bruteforce with pruning solution
 # time: O(sqrt(num))
 # space: O(1)
 
