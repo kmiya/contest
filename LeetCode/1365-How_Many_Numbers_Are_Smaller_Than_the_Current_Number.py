@@ -1,5 +1,5 @@
 # straightforward solution
-# time: O(#nums)
+# time: O(#nums * #nums)
 # space: O(#nums)
 
 
