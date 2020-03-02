@@ -5,7 +5,7 @@
 
 class Solution:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
-        def rec(node: TreeNode, num: int):
+        def rec(node: TreeNode, num: int) -> bool:
             if not node:
                 return False
             num += node.val
