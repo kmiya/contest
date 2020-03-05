@@ -5,7 +5,7 @@
 
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
-        def rec(left, right):
+        def rec(left: 'Node', right: 'Node'):
             if not left:
                 return
             left.next = right
