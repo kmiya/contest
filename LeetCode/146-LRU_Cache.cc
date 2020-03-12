@@ -1,7 +1,5 @@
 // unordered_map + list solution
 // get: O(capacity), put: O(capacity)
-//
-// Success
 // Runtime: 460 ms, faster than 5.03% of C++ online submissions for LRU Cache.
 // Memory Usage: 40.2 MB, less than 34.55% of C++ online submissions for LRU Cache.
 
@@ -10,12 +8,12 @@ private:
      int capacity_;
      unordered_map<int, int> map;
      list<int> que;
-    
+
 public:
     LRUCache(int capacity) {
         capacity_ = capacity;
     }
-    
+
     int get(int key) {
         if (map.find(key) != map.end()) {
             que.remove(key);
@@ -24,7 +22,7 @@ public:
         }
         return -1;
     }
-    
+
     void put(int key, int value) {
         if (map.find(key) != map.end()) {
             map[key] = value;
@@ -35,7 +33,7 @@ public:
             map.erase(que.front());
             que.pop_front();
         }
-        map.insert(pair<int,int>(key, value));
+        map.insert(pair<int, int>(key, value));
         get(key);
     }
 };
