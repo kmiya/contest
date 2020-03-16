@@ -3,6 +3,8 @@
 # space: O(mn)
 # Runtime: 100 ms, faster than 100.00% of Python3 online submissions for Number of Enclaves.
 # Memory Usage: 15 MB, less than 100.00% of Python3 online submissions for Number of Enclaves.
+
+
 class Solution:
     def numEnclaves(self, A: List[List[int]]) -> int:
         def rec(x, y):

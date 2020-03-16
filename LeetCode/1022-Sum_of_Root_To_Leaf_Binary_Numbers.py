@@ -2,6 +2,8 @@
 # time: O(h) : h is the height of t
 # Runtime: 52 ms, faster than 100.00% of Python3 online submissions for Sum of Root To Leaf Binary Numbers.
 # Memory Usage: 15 MB, less than 100.00% of Python3 online submissions for Sum of Root To Leaf Binary Numbers.
+
+
 class Solution:
     def sumRootToLeaf(self, root: TreeNode) -> int:
         m = 10**9 + 7

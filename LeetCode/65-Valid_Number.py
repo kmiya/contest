@@ -3,6 +3,8 @@
 # space: O(1)
 # Runtime: 44 ms, faster than 100.00% of Python3 online submissions for Valid Number.
 # Memory Usage: 13.1 MB, less than 5.71% of Python3 online submissions for Valid Number.
+
+
 class Solution:
     def isNumber(self, s: str) -> bool:
         if s.count('e') > 1: return False

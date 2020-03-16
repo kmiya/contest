@@ -3,12 +3,6 @@
 # Runtime: 400 ms, faster than 84.16% of Python3 online submissions for Longest Univalue Path.
 # Memory Usage: 17.1 MB, less than 5.45% of Python3 online submissions for Longest Univalue Path.
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def longestUnivaluePath(self, root: TreeNode) -> int:

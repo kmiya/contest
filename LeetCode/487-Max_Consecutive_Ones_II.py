@@ -2,6 +2,8 @@
 # space: O(1)
 # Runtime: 104 ms, faster than 66.56% of Python3 online submissions for Max Consecutive Ones II.
 # Memory Usage: 13.4 MB, less than 5.55% of Python3 online submissions for Max Consecutive Ones II.
+
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         pre = cnt = ans = 0

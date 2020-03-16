@@ -1,7 +1,8 @@
 # time: O(n)
 # space: almost O(1)
-#Runtime: 236 ms, faster than 99.45% of Python3 online submissions for Number of Equivalent Domino Pairs.
-#Memory Usage: 21.9 MB, less than 100.00% of Python3 online submissions for Number of Equivalent Domino Pairs.
+# Runtime: 236 ms, faster than 99.45% of Python3 online submissions for Number of Equivalent Domino Pairs.
+# Memory Usage: 21.9 MB, less than 100.00% of Python3 online submissions for Number of Equivalent Domino Pairs.
+
 
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:

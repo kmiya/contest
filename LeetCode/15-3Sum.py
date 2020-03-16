@@ -5,6 +5,7 @@
 
 from typing import List
 
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         if len(nums) < 3:
@@ -38,7 +39,7 @@ class Solution:
 
 
 if __name__ == "__main__":
-    s = Solution();
+    s = Solution()
     print(s.threeSum([-1, 0, 1, 2, -1, -4]), [[-1, 0, 1],[-1, -1, 2]])
     print(s.threeSum([]), [])
     print(s.threeSum([1]), [])

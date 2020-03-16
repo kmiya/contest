@@ -3,6 +3,8 @@
 # space: O(log(N,-2))
 # Runtime: 36 ms, faster than 100.00% of Python3 online submissions for Convert to Base -2.
 # Memory Usage: 13.1 MB, less than 100.00% of Python3 online submissions for Convert to Base -2.
+
+
 class Solution:
     def baseNeg2(self, N: int) -> str:
         if N == 0:

@@ -1,6 +1,5 @@
 // 4. Median of Two Sorted Arrays
 // Time O(m+n), Space O(m+n) solution
-// Success
 // Runtime: 44 ms, faster than 97.04% of C++ online submissions for Median of Two Sorted Arrays.
 // Memory Usage: 21.8 MB, less than 26.40% of C++ online submissions for Median of Two Sorted Arrays.
 

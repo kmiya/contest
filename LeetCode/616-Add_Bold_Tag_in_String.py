@@ -3,6 +3,8 @@
 # space: O(N)
 # Runtime: 460 ms, faster than 10.66% of Python3 online submissions for Add Bold Tag in String.
 # Memory Usage: 15 MB, less than 6.90% of Python3 online submissions for Add Bold Tag in String.
+
+
 class Solution:
     def addBoldTag(self, s: str, dict: List[str]) -> str:
         sl = [0] * len(s)

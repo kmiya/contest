@@ -4,6 +4,7 @@
 # Runtime: 36 ms, faster than 84.52% of Python3 online submissions for Valid Parentheses.
 # Memory Usage: 13.2 MB, less than 5.22% of Python3 online submissions for Valid Parentheses.
 
+
 class Solution:
     def isValid(self, s: str) -> bool:
         def isPair(t, l):

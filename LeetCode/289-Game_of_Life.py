@@ -3,6 +3,8 @@
 # space: O(h*w)
 # Runtime: 40 ms, faster than 57.63% of Python3 online submissions for Game of Life.
 # Memory Usage: 13.4 MB, less than 5.79% of Python3 online submissions for Game of Life.
+
+
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """

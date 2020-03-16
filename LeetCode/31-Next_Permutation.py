@@ -5,6 +5,7 @@
 
 from typing import List
 
+
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -12,7 +13,7 @@ class Solution:
         """
         if len(nums) < 2:
             return
-        
+
         for i in range(len(nums)-2, -1, -1):
             if nums[i] < nums[i+1]:
                 for k in range(len(nums)-1, i, -1):
@@ -30,6 +31,7 @@ def test(test, expect):
     s = Solution()
     s.nextPermutation(test)
     print(test, expect)
+
 
 if __name__ == "__main__":
     test([1,2,3],[1,3,2])

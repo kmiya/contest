@@ -2,6 +2,8 @@
 # Space: O(1)
 # Runtime: 44 ms, faster than 39.07% of Python3 online submissions for Next Closest Time.
 # Memory Usage: 13.1 MB, less than 5.55% of Python3 online submissions for Next Closest Time.
+
+
 class Solution:
     def nextClosestTime(self, time: str) -> str:
         allowed = [time[0], time[1], time[3], time[4]]

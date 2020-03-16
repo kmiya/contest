@@ -2,6 +2,8 @@
 # Space: O(N)
 # Runtime: 124 ms, faster than 23.85% of Python3 online submissions for License Key Formatting.
 # Memory Usage: 13.3 MB, less than 25.61% of Python3 online submissions for License Key Formatting.
+
+
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         tmp = S.replace("-", "").upper()

@@ -3,6 +3,7 @@
 # Runtime: 68 ms, faster than 58.14% of Python3 online submissions for Multiply Strings.
 # Memory Usage: 12.6 MB, less than 100.00% of Python3 online submissions for Multiply Strings.
 
+
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         num1 = [ord(x) - ord('0') for x in num1]
@@ -20,6 +21,7 @@ class Solution:
             if res[i+1] != 0:
                 not_zero = i+1
         return ''.join([chr(x + ord('0')) for x in reversed(res[:not_zero+1])])
+
 
 if __name__ == "__main__":
     s = Solution()

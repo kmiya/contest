@@ -2,7 +2,8 @@
 # time: O(num of nodes)
 # space: O(num of nodes)
 
- class Solution:   
+
+class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         if not root:
             return []
