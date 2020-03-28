@@ -1,6 +1,6 @@
-# DFS solution
+# BFS solution
 # time: O(mn)
-# space: O(mn)
+# space: O(min(m,n))
 
 from typing import List
 from collections import deque
