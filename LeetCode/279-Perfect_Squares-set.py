@@ -1,6 +1,6 @@
 # BFS solution with set
 # time: O(sqrt(n)^2 * max_level)
-# space: O(sqrt(n))
+# space: O(sqrt(n)^2)
 
 from math import floor, sqrt
 
