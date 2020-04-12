@@ -1,0 +1,17 @@
+# time: O((#words ^ 2) * M) where M: max length of the word in words
+# space: O(#words * M)
+
+from typing import List
+
+
+class Solution:
+    def stringMatching(self, words: List[str]) -> List[str]:
+        ans = []
+        for i in range(len(words)):
+            for j in range(len(words)):
+                if i == j:
+                    continue
+                if words[i] in words[j]:
+                    ans.append(words[i])
+                    break
+        return ans
