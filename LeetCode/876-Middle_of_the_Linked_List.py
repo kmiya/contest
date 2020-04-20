@@ -1,4 +1,4 @@
-# double pointer
+# double pointers
 # time: O(N)
 # space: O(1)
 
