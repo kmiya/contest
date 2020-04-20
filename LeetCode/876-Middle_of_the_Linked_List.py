@@ -1,6 +1,6 @@
 # double pointer
 # time: O(N)
-# time: O(1)
+# space: O(1)
 
 
 class Solution:
