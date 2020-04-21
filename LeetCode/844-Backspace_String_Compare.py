@@ -22,7 +22,6 @@ class Solution:
                 j = max(j - 1, -1)
                 skip_j -= 1
                 continue
-            # print(i, S[i], j, T[j], skip_i, skip_j)
             if i >= 0 and j >= 0 and S[i] != T[j]:
                 return False
             i -= 1
